@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #txtHo{
+        margin-left: 19px;
+        margin-top: 5px;
+    }
+    #txtTen{
+        margin-left: 21px;
+        margin-top: 5px;
+    }
+    #txtMail{
+        margin-left: 43px;
+        margin-top: 5px;
+    }
+    .contact{
+        box-shadow: 0px 0px 10px 5px;
+        padding: 5px;
+        width: max-content;
+        margin: auto;
+    }
+</style>
+<body>
+    <div class="contact">
+        <fieldset>
+            <legend><i>Contactt Information</i></legend>
+            <div>
+                <label for="">
+                    First name:
+                    <input type="text" id="txtHo">
+                </label>
+            </div>
+            <div>
+                <label for="">
+                    Last name:
+                    <input type="text" id="txtTen">
+                </label>
+            </div>
+            <div>
+                <label for="">
+                    E-mail:
+                    <input type="email" id="txtMail">
+                </label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Competition Question</legend>
+            <div>
+                <label for="">
+                How tall is the Eiffel Tower in Paris, France?
+                </label>
+            </div>
+            <div>
+                <input type="radio" name="answer" value="584ft">
+                <label for="584-ft">584 ft</label>
+            </div>
+            <div>
+                <input type="radio" name="answer" value="784ft">
+                <label for="784-ft">784 ft</label>
+            </div>
+            <div>
+                <input type="radio" name="answer" value="984ft">
+                <label for="984-ft">984 ft</label>
+            </div>
+            <div>
+                <input type="radio" name="answer" value="1184ft">
+                <label for="1184-ft">1184 ft</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Tiebreaker Question</legend>
+            <div>
+                <label for="">
+                    In 25 words or less, say why you would like to win 110,000:
+                </label>
+            </div>
+            <textarea name="Tiebreaker" id="" cols="50" rows="10"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Enter competition</legend>
+            <input type="submit" value="Enter competition">
+        </fieldset>
+    </div>
+</body>
+</html>
